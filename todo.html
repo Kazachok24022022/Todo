@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Список дел</title>
+</head>
+<link rel="stylesheet" href="./todo.css">
+<body>
+  <div class="container">
+    <div class="list-controls">
+      <button id="clearCompleted">Очистить выполненные во всех списках</button>
+    </div>
+    <div class="list-container">
+      <h2>Мои дела</h2>
+      <ul id="todoList1"></ul>
+      <div class="list-controls">
+        <input type="text" id="newTodo1" placeholder="Добавить дело..." />
+        <button id="addTodo1">Добавить</button>
+      </div>
+    </div>
+    <div class="list-container">
+      <h2>Мамины дела</h2>
+      <ul id="todoList2"></ul>
+      <div class="list-controls">
+        <input type="text" id="newTodo2" placeholder="Добавить дело..." />
+        <button id="addTodo2">Добавить</button>
+      </div>
+    </div>
+    <div class="list-container">
+      <h2>Папины дела</h2>
+      <ul id="todoList3"></ul>
+      <div class="list-controls">
+        <input type="text" id="newTodo3" placeholder="Добавить дело..." />
+        <button id="addTodo3">Добавить</button>
+      </div>
+    </div>
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
